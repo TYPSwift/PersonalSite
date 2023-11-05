@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@400;700&display=swap');
+:root {
+    font-family: "Exo 2", sans-serif ; 
+    font-size: 20px;
+    background-color: aliceblue;
+}
+
+
+
+.nav {
+    list-style-type: none;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 15%;
+    background-color: #6b019d97;
+    position: fixed; 
+    overflow: auto; 
+    font-size: 40px;
+    font-weight: bolder;
+    z-index: 1; 
+    top: 0; 
+    left:0;
+}
+
+.nav ul {
+    list-style: none;
+    padding: 0px;
+}
+
+.nav li {
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.nav a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+}
+
+.nav a:hover {
+    background-color: #555;
+}
+
+/* Add a margin to the <p> element to create space below the navigation bar */
+p {
+    height: 20px;
+    width: 100%;
+}
+
+.content{
+    margin-left: 17%;
+}
+.hero img {
+    max-width:400px;
+    max-height:px;
+    width: auto;
+    height: auto;
+    margin-left: 30%;
+  }
+
+  .skills {
+    max-width: 68.75rem;
+    margin: auto;
+    text-align: left;
+    margin-top: 2.5rem;
+  }
+  
+  .skill-header {
+    margin-bottom: 1rem;
+  }
+  
+  .skills-wrapper img {
+    padding: 1.25rem;
+  }
+  
+  .icon {
+    width: 5.875rem;
+    height: 5.25rem;
+  }
+
+  .projects {
+    background-color: var(--bg-color);
+    padding: 32px 0;
+    margin-top: 2rem;
+  }
+  
+  .project-pic {
+    align-self: center;
+    width: 20%;
+    height: 20%;
+    padding-right: 20px;
+  }
+  
+  .projects-container {
+    display: flex;
+  }
+  .project-info{
+    flex: 1;
+  }
+  .project-content{
+    display: flex;
+    flex-direction: row;
+  }
