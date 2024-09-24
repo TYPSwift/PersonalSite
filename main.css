@@ -110,3 +110,8 @@ p {
     align-self: center;
     margin-left: 7%;
   }
+
+  .silos_welcome{
+    text-align: center;
+    border: 10px solid gold;
+  }
