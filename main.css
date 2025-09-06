@@ -13,10 +13,10 @@
     margin: 0;
     padding: 0;
     width: 15%;
-    background-color: #6b019d97;
+    background-color: #019d1b97;
     position: fixed; 
     overflow: auto; 
-    font-size: 40px;
+    font-size: 30px;
     font-weight: bolder;
     z-index: 1; 
     top: 0; 
